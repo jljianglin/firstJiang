@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>DoLoginServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.user.action.DoLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoMainServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.user.action.DoMainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoListGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.DoListGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoDetailGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.DoDetailGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoDeleteGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.DoDeleteGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ToUpdateGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.ToUpdateGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoUpdateGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.DoUpdateGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ToAddGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.ToAddGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoAddGradeServlet</servlet-name>
+    <servlet-class>cn.jbit.pb.tangcco.grade.action.DoAddGradeServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DoLoginServlet</servlet-name>
+    <url-pattern>/doLogin.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoMainServlet</servlet-name>
+    <url-pattern>/doMain.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoListGradeServlet</servlet-name>
+    <url-pattern>/doListGrade.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoDetailGradeServlet</servlet-name>
+    <url-pattern>/doDetailGrade.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoDeleteGradeServlet</servlet-name>
+    <url-pattern>/doDeleteGrade.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToUpdateGradeServlet</servlet-name>
+    <url-pattern>/toUpdateGrade.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoUpdateGradeServlet</servlet-name>
+    <url-pattern>/doUpdateGrade.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToAddGradeServlet</servlet-name>
+    <url-pattern>/toAddGrade.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoAddGradeServlet</servlet-name>
+    <url-pattern>/doAddGrade.action</url-pattern>
+  </servlet-mapping>
+ 
+
+
+
+
+
+
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
